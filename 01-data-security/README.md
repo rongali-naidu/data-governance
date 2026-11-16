@@ -16,7 +16,7 @@ Data security makes data available to authorized users while blocking unauthoriz
 | **Integrity** | Data remains accurate, complete and unaltered. |
 | **Availability** | Authorized users can access data when needed. |
 
-> Integrity in the security sense (data is not tampered with) is different from integrity as a [data quality dimension](../04-data-quality/02-dimensions.md) (relationships between entities are maintained).
+> Integrity in the security sense (data is not tampered with) is different from integrity as a [data quality dimension](../04-data-quality/02-dimensions.md) (relationships between entities are maintained). Likewise, availability here means systems and data are accessible; the data quality counterpart, data delivered on time per SLA, is called *timeliness*.
 
 ## Key data security mechanisms
 

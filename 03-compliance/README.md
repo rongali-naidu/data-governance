@@ -2,9 +2,20 @@
 
 [← Data Governance overview](../README.md)
 
-## What are regulatory requirements?
+Compliance is not a peer of the other pillars: it wraps [security](../01-data-security/README.md), [privacy](../02-data-privacy/README.md) and [quality](../04-data-quality/README.md), and proves that their controls work.
 
-Regulatory requirements are laws or legally binding standards issued by governments. They define concrete obligations for handling data. Many focus on personal data, but regulations often extend to financial records, operational resilience and data sovereignty (where data is stored).
+## What are compliance obligations?
+
+Compliance covers the external and internal obligations an organization must be able to demonstrate:
+
+| Source | Examples | Binding through |
+| --- | --- | --- |
+| Laws and regulations | GDPR, CCPA/CPRA, HIPAA, SOX | Government enforcement |
+| Industry standards | PCI DSS | Contracts with card brands and acquirers |
+| Attestations and certifications | SOC 2, ISO 27001 | Customer and partner requirements |
+| Internal policy | Data security policy, data privacy policy, data contracts | Company governance |
+
+Regulatory requirements, the first row, are laws or legally binding standards issued by governments. They define concrete obligations for handling data. Many focus on personal data, but regulations often extend to financial records (where data accuracy matters, linking compliance to data quality), operational resilience and data sovereignty (where data is stored).
 
 ## Key regulations overview
 
@@ -23,7 +34,7 @@ PCI DSS is an industry standard rather than a government law, but it is binding 
 
 ## Regulatory compliance: the final audit
 
-Compliance is the state in which the implementation of data security and privacy meets specific regulatory requirements. It is the "passed exam" of the data world: the process of proving to an external authority (a regulator, a partner or a customer) that your data protection practices actually work and align with the law.
+Compliance is the state in which the implementation of data security, privacy and quality controls meets specific obligations. It is the "passed exam" of the data world: the process of proving to an external authority (a regulator, a partner or a customer) that your data protection practices actually work and align with the law.
 
 ## Note on data protection
 

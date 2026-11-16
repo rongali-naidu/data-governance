@@ -72,9 +72,9 @@ Other validity checks:
 - **At source systems:** front-end validations (e.g. email regex), API schema contracts, database constraints.
 - **At data lake / warehouse:** validate format upstream where possible. Validating emails or phone numbers downstream often signals poor data hygiene at the source.
 
-## Availability (timeliness)
+## Timeliness
 
-Data is timely and delivered according to the agreed service level agreement (SLA). Some use cases need real-time delivery; others allow daily batch updates. Job failures and pipeline latency are operational issues, but because they affect data freshness they count as DQ issues at a broader level.
+Data is timely and delivered according to the agreed service level agreement (SLA). This dimension is sometimes called *availability*; *timeliness* avoids confusion with availability in the security CIA triad, which means systems and data are accessible. Some use cases need real-time delivery; others allow daily batch updates. Job failures and pipeline latency are operational issues, but because they affect data freshness they count as DQ issues at a broader level.
 
 - **At source systems:** data is published per SLA contracts.
 - **At data lake / warehouse:** data is ingested, processed and made available in the curated datasets used by downstream consumers per SLA.
@@ -93,5 +93,5 @@ Mainly relevant to data science use cases. Changes in the distribution of data, 
 | Uniqueness | No duplicates | Unique constraints | Deduplication, identity resolution |
 | Integrity | Relationships maintained | Referential integrity | Fact-to-dimension validations |
 | Validity | Format, allowed values, logic, business rules | Front-end validation, API contracts, constraints | Prefer upstream validation |
-| Availability | Delivered per SLA | Published per SLA | Curated datasets available per SLA |
+| Timeliness | Delivered per SLA | Published per SLA | Curated datasets available per SLA |
 | Distribution | No unexpected drift | Usually not checked | Statistical monitoring over time |
