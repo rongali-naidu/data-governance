@@ -35,3 +35,7 @@ data-governance/
 ├── 03-compliance/                # Regulatory requirements, key regulations, audits
 └── 04-data-quality/              # Dimensions, DQ frameworks, profiling, scoring, ownership, tools
 ```
+
+## License
+
+This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may share and adapt it with attribution. See [LICENSE](LICENSE).
