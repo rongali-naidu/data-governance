@@ -2,7 +2,7 @@
 
 Notes on data governance: what it is, the three pillars it governs (**data security, data privacy and data quality**), the compliance layer that proves those pillars work, and the foundation they all rest on.
 
-Data governance is one part of a broader **[data strategy](00-data-strategy/README.md)**, which connects business goals to people, architecture, governance and technology. Start there for the bigger picture.
+Data governance is one part of a broader **[data strategy](00-data-strategy/README.md)**, which connects business goals to people, architecture, governance and technology. Start there for the bigger picture. **[Data architecture](05-data-architecture/README.md)** covers how data is stored, moved and served, and how architecture builds governance in.
 
 ![Data governance framework: compliance and audit wrapping three pillars (security, privacy, quality) on a governance foundation](images/data-governance-framework.svg)
 
@@ -62,7 +62,8 @@ data-governance/
 ├── 01-data-security/             # CIA triad, mechanisms, encryption, security policy
 ├── 02-data-privacy/              # Privacy principles, security vs privacy, privacy policy
 ├── 03-compliance/                # Obligations, key regulations, audits
-└── 04-data-quality/              # Dimensions, DQ frameworks, profiling, scoring, ownership, tools
+├── 04-data-quality/              # Dimensions, DQ frameworks, profiling, scoring, ownership, tools
+└── 05-data-architecture/         # Components, layers, the decluttered map, principles, governance by design
 ```
 
 ## License

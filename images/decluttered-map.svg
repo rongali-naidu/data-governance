@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 670" width="960" height="670" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="670" fill="#ffffff"/>
+  <text x="480" y="44" text-anchor="middle" font-size="27" font-weight="700" fill="#1F2933">The Decluttered Map</text>
+  <text x="480" y="72" text-anchor="middle" font-size="15" fill="#52606D">Most "architectures" answer different questions, so a real design combines one choice from each</text>
+
+  <!-- Row 1 -->
+  <g>
+    <rect x="40" y="96" width="280" height="222" rx="10" fill="#fff" stroke="#2B6A8E" stroke-width="2"/>
+    <path d="M40 106 a10 10 0 0 1 10 -10 h260 a10 10 0 0 1 10 10 v34 h-280 z" fill="#2B6A8E"/>
+    <text x="180" y="125" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">Platforms</text>
+    <text x="180" y="166" text-anchor="middle" font-size="14" font-style="italic" fill="#3E4C59">Where does data live?</text>
+    <g font-size="14" fill="#1F2933"><text x="62" y="200">• Data warehouse</text><text x="62" y="226">• Data lake</text><text x="62" y="252">• Lakehouse</text></g>
+    <text x="62" y="296" font-size="12" fill="#7B8794">Chapters 2-5</text>
+  </g>
+  <g>
+    <rect x="340" y="96" width="280" height="222" rx="10" fill="#fff" stroke="#2E8B6E" stroke-width="2"/>
+    <path d="M340 106 a10 10 0 0 1 10 -10 h260 a10 10 0 0 1 10 10 v34 h-280 z" fill="#2E8B6E"/>
+    <text x="480" y="125" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">Layering conventions</text>
+    <text x="480" y="166" text-anchor="middle" font-size="14" font-style="italic" fill="#3E4C59">How is data refined?</text>
+    <g font-size="14" fill="#1F2933"><text x="362" y="200">• Staging / integration / presentation</text><text x="362" y="226">• Raw / standardized / conformed /</text><text x="374" y="246">enriched</text><text x="362" y="272">• Bronze / silver / gold (medallion)</text></g>
+    <text x="362" y="296" font-size="12" fill="#7B8794">Chapters 1, 2, 5</text>
+  </g>
+  <g>
+    <rect x="640" y="96" width="280" height="222" rx="10" fill="#fff" stroke="#C97A1E" stroke-width="2"/>
+    <path d="M640 106 a10 10 0 0 1 10 -10 h260 a10 10 0 0 1 10 10 v34 h-280 z" fill="#C97A1E"/>
+    <text x="780" y="125" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">Processing patterns</text>
+    <text x="780" y="166" text-anchor="middle" font-size="14" font-style="italic" fill="#3E4C59">How and when is data processed?</text>
+    <g font-size="14" fill="#1F2933"><text x="662" y="200">• Batch (ETL / ELT)</text><text x="662" y="226">• Lambda (batch + speed)</text><text x="662" y="252">• Kappa (stream only)</text><text x="662" y="278">• Event-driven data mesh</text></g>
+    <text x="662" y="304" font-size="12" fill="#7B8794">Chapters 7-9, 15</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g>
+    <rect x="40" y="336" width="280" height="222" rx="10" fill="#fff" stroke="#5B5FC7" stroke-width="2"/>
+    <path d="M40 346 a10 10 0 0 1 10 -10 h260 a10 10 0 0 1 10 10 v34 h-280 z" fill="#5B5FC7"/>
+    <text x="180" y="365" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">Modeling methods</text>
+    <text x="180" y="406" text-anchor="middle" font-size="14" font-style="italic" fill="#3E4C59">How is data structured?</text>
+    <g font-size="14" fill="#1F2933"><text x="62" y="440">• 3NF (Inmon)</text><text x="62" y="466">• Star schema (Kimball)</text><text x="62" y="492">• Data Vault</text><text x="62" y="518">• One big table</text></g>
+    <text x="62" y="544" font-size="12" fill="#7B8794">Chapters 2, 10, 16</text>
+  </g>
+  <g>
+    <rect x="340" y="336" width="280" height="222" rx="10" fill="#fff" stroke="#B83280" stroke-width="2"/>
+    <path d="M340 346 a10 10 0 0 1 10 -10 h260 a10 10 0 0 1 10 10 v34 h-280 z" fill="#B83280"/>
+    <text x="480" y="365" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">Operating models</text>
+    <text x="480" y="406" text-anchor="middle" font-size="14" font-style="italic" fill="#3E4C59">Who owns the data?</text>
+    <g font-size="14" fill="#1F2933"><text x="362" y="440">• Centralized (one data team)</text><text x="362" y="466">• Data mesh (domain ownership)</text><text x="362" y="492">• Federated (central platform,</text><text x="374" y="512">domain data products)</text></g>
+    <text x="362" y="544" font-size="12" fill="#7B8794">Chapters 1, 6</text>
+  </g>
+  <g>
+    <rect x="640" y="336" width="280" height="222" rx="10" fill="#fff" stroke="#C99A1E" stroke-width="2"/>
+    <path d="M640 346 a10 10 0 0 1 10 -10 h260 a10 10 0 0 1 10 10 v34 h-280 z" fill="#E2B33C"/>
+    <text x="780" y="365" text-anchor="middle" font-size="17" font-weight="700" fill="#1F2933">Integration and access</text>
+    <text x="780" y="406" text-anchor="middle" font-size="14" font-style="italic" fill="#3E4C59">How do systems connect?</text>
+    <g font-size="14" fill="#1F2933"><text x="662" y="440">• Data hub</text><text x="662" y="466">• Data fabric</text><text x="662" y="492">• Data virtualization</text><text x="662" y="518">• Hybrid and multi-cloud</text></g>
+    <text x="662" y="544" font-size="12" fill="#7B8794">Chapters 11-14</text>
+  </g>
+
+  <!-- Cross-cutting -->
+  <rect x="40" y="578" width="880" height="62" rx="12" fill="#2F3B4A"/>
+  <text x="480" y="604" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" letter-spacing="1">CROSS-CUTTING</text>
+  <text x="480" y="627" text-anchor="middle" font-size="13.5" fill="#CBD2D9">Governance  ·  metadata and lineage  ·  data quality  ·  semantic layer for people and AI agents</text>
+</svg>

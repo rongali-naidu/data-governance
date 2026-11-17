@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52606D"/></marker>
+  </defs>
+  <rect width="960" height="400" fill="#ffffff"/>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1F2933">Components of a Data Architecture</text>
+
+  <!-- Boxes -->
+  <g font-size="14" fill="#1F2933">
+    <rect x="30" y="70" width="160" height="200" rx="10" fill="#F4F5F7" stroke="#9AA5B1" stroke-width="1.5"/>
+    <text x="110" y="98" text-anchor="middle" font-size="16" font-weight="700">Sources</text>
+    <text x="48" y="130">Applications</text><text x="48" y="154">OLTP databases</text><text x="48" y="178">SaaS</text><text x="48" y="202">Events and logs</text><text x="48" y="226">IoT and devices</text><text x="48" y="250">Partner files</text>
+
+    <rect x="215" y="70" width="140" height="200" rx="10" fill="#E8F1F7" stroke="#2B6A8E" stroke-width="1.5"/>
+    <text x="285" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#2B6A8E">Ingestion</text>
+    <text x="232" y="130">Batch ETL</text><text x="232" y="154">CDC</text><text x="232" y="178">Streaming</text><text x="232" y="202">API pulls</text><text x="232" y="226">Zero-ETL</text>
+
+    <rect x="380" y="70" width="180" height="200" rx="10" fill="#E6F4EF" stroke="#2E8B6E" stroke-width="1.5"/>
+    <text x="470" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#2E8B6E">Storage</text>
+    <text x="398" y="130">Data lake</text><text x="398" y="154">(object storage)</text><text x="398" y="178">Lakehouse tables</text><text x="398" y="202">Data warehouse</text><text x="398" y="226">Raw → refined layers</text>
+
+    <rect x="585" y="70" width="140" height="200" rx="10" fill="#FBF0E3" stroke="#C97A1E" stroke-width="1.5"/>
+    <text x="655" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#C97A1E">Processing</text>
+    <text x="602" y="130">Clean</text><text x="602" y="154">Join and model</text><text x="602" y="178">Aggregate</text><text x="602" y="202">Batch and stream</text>
+
+    <rect x="750" y="70" width="180" height="200" rx="10" fill="#EEEEFB" stroke="#5B5FC7" stroke-width="1.5"/>
+    <text x="840" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#5B5FC7">Consumption</text>
+    <text x="768" y="130">BI and dashboards</text><text x="768" y="154">Ad-hoc SQL</text><text x="768" y="178">ML training and</text><text x="768" y="198">inference</text><text x="768" y="222">Applications, APIs</text><text x="768" y="246">AI agents</text>
+  </g>
+
+  <!-- Arrows -->
+  <g stroke="#52606D" stroke-width="2" fill="none">
+    <line x1="190" y1="170" x2="212" y2="170" marker-end="url(#a)"/>
+    <line x1="355" y1="170" x2="377" y2="170" marker-end="url(#a)"/>
+    <line x1="560" y1="155" x2="582" y2="155" marker-end="url(#a)"/>
+    <line x1="582" y1="190" x2="563" y2="190" marker-end="url(#a)"/>
+    <line x1="725" y1="170" x2="747" y2="170" marker-end="url(#a)"/>
+    <path d="M840 270 V292 H110 V273" stroke-dasharray="6 4" marker-end="url(#a)"/>
+  </g>
+  <text x="475" y="286" text-anchor="middle" font-size="12.5" fill="#52606D">Processed data also flows back to operational systems (scores, recommendations)</text>
+
+  <!-- Governance -->
+  <rect x="30" y="310" width="900" height="62" rx="12" fill="#2F3B4A"/>
+  <text x="480" y="336" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" letter-spacing="1">GOVERNANCE AND METADATA (CROSS-CUTTING)</text>
+  <text x="480" y="358" text-anchor="middle" font-size="13.5" fill="#CBD2D9">Catalog  ·  access control  ·  data quality  ·  lineage  ·  privacy and compliance</text>
+</svg>

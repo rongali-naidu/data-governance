@@ -28,7 +28,7 @@ The framework reads top to bottom: business objectives decide what value to crea
 | --- | --- | --- |
 | Business objectives | Mission, goals, current vs target maturity, desired outcomes | Which business goals must data support, and how will we know? |
 | Analytics, BI, data science & AI | Reporting, self-service analytics, ML, generative AI and agents | Which use cases create value, and in what order? |
-| Data architecture & lifecycle | Collection, processing, storage, access and sharing, semantic layer | How does data flow from source to consumer? |
+| [Data architecture](../05-data-architecture/README.md) & lifecycle | Collection, processing, storage, access and sharing, semantic layer | How does data flow from source to consumer? |
 | Data governance | Security, privacy, quality, compliance, ownership, metadata | Can the data be trusted, protected and audited? |
 | Technology & tools | Ingestion, storage, processing, BI, ML/AI, governance tooling | Which tools, evaluated on business need, scale and compliance? |
 | Foundation | People and structure; data literacy and culture | Who does the work, and do people know how to use data? |
@@ -84,7 +84,7 @@ The framework reads top to bottom: business objectives decide what value to crea
 
 **Data storage and architecture**
 
-- Architect scalable storage and compute (data lakes, data warehouses).
+- Architect scalable storage and compute (data lakes, data warehouses). See [Data architecture](../05-data-architecture/README.md).
 - Balance performance, cost and security.
 
 **Data access and sharing**
