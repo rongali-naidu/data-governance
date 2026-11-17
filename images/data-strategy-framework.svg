@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 676" width="960" height="676" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#2B6A8E"/>
+    </marker>
+  </defs>
+  <rect width="960" height="676" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="510" y="44" text-anchor="middle" font-size="28" font-weight="700" fill="#1F2933">Data Strategy</text>
+  <text x="510" y="72" text-anchor="middle" font-size="15" fill="#52606D">Align people, process, tools, technology and terminology to business goals</text>
+
+  <!-- Business objectives -->
+  <rect x="90" y="96" width="840" height="70" rx="12" fill="#2B6A8E"/>
+  <text x="510" y="125" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff" letter-spacing="1">BUSINESS OBJECTIVES</text>
+  <text x="510" y="150" text-anchor="middle" font-size="13.5" fill="#D9E8F2">Mission and goals  ·  current vs target data maturity  ·  desired outcomes</text>
+
+  <!-- Value layer -->
+  <rect x="90" y="180" width="840" height="70" rx="12" fill="#E8F1F7" stroke="#2B6A8E" stroke-width="2"/>
+  <text x="510" y="209" text-anchor="middle" font-size="16" font-weight="700" fill="#2B6A8E" letter-spacing="1">ANALYTICS, BI, DATA SCIENCE &amp; AI</text>
+  <text x="510" y="234" text-anchor="middle" font-size="13.5" fill="#33505F">Where data creates value: reporting, self-service analytics, ML, generative AI and agents</text>
+
+  <!-- Pillar 1: Data Architecture & Lifecycle -->
+  <rect x="90" y="266" width="270" height="202" rx="10" fill="#ffffff" stroke="#2E8B6E" stroke-width="2"/>
+  <path d="M90 276 a10 10 0 0 1 10 -10 h250 a10 10 0 0 1 10 10 v36 h-270 z" fill="#2E8B6E"/>
+  <text x="225" y="296" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">Data Architecture &amp; Lifecycle</text>
+  <g font-size="14" fill="#1F2933">
+    <text x="112" y="342">• Collection and ingestion</text>
+    <text x="112" y="368">• Processing (ETL / ELT)</text>
+    <text x="112" y="394">• Storage: lake and warehouse</text>
+    <text x="112" y="420">• Access, catalog and sharing</text>
+    <text x="112" y="446">• Semantic layer and glossary</text>
+  </g>
+
+  <!-- Pillar 2: Data Governance -->
+  <rect x="375" y="266" width="270" height="202" rx="10" fill="#ffffff" stroke="#5B5FC7" stroke-width="2"/>
+  <path d="M375 276 a10 10 0 0 1 10 -10 h250 a10 10 0 0 1 10 10 v36 h-270 z" fill="#5B5FC7"/>
+  <text x="510" y="296" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">Data Governance</text>
+  <g font-size="14" fill="#1F2933">
+    <text x="397" y="342">• Data security</text>
+    <text x="397" y="368">• Data privacy</text>
+    <text x="397" y="394">• Data quality</text>
+    <text x="397" y="420">• Compliance and audit</text>
+    <text x="397" y="446">• Ownership, metadata, lineage</text>
+  </g>
+
+  <!-- Pillar 3: Technology & Tools -->
+  <rect x="660" y="266" width="270" height="202" rx="10" fill="#ffffff" stroke="#C99A1E" stroke-width="2"/>
+  <path d="M660 276 a10 10 0 0 1 10 -10 h250 a10 10 0 0 1 10 10 v36 h-270 z" fill="#E2B33C"/>
+  <text x="795" y="296" text-anchor="middle" font-size="17" font-weight="700" fill="#1F2933">Technology &amp; Tools</text>
+  <g font-size="14" fill="#1F2933">
+    <text x="682" y="342">• Ingestion and processing</text>
+    <text x="682" y="368">• Storage and compute</text>
+    <text x="682" y="394">• BI and visualization</text>
+    <text x="682" y="420">• ML and AI platforms</text>
+    <text x="682" y="446">• Governance tooling</text>
+  </g>
+
+  <!-- Foundation -->
+  <rect x="90" y="482" width="840" height="98" rx="12" fill="#2F3B4A"/>
+  <text x="510" y="509" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="1">FOUNDATION</text>
+  <line x1="510" y1="522" x2="510" y2="568" stroke="#52606D" stroke-width="1"/>
+  <text x="300" y="539" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">People &amp; structure</text>
+  <text x="300" y="561" text-anchor="middle" font-size="13" fill="#CBD2D9">Roles; central, decentralized or hybrid model</text>
+  <text x="720" y="539" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Data literacy &amp; culture</text>
+  <text x="720" y="561" text-anchor="middle" font-size="13" fill="#CBD2D9">Training, collaboration, data as a strategic asset</text>
+
+  <!-- Measure & improve -->
+  <rect x="90" y="594" width="840" height="60" rx="12" fill="#F4F5F7" stroke="#9AA5B1" stroke-width="1.5"/>
+  <text x="510" y="619" text-anchor="middle" font-size="15" font-weight="700" fill="#1F2933" letter-spacing="1">MEASURE &amp; IMPROVE</text>
+  <text x="510" y="641" text-anchor="middle" font-size="13" fill="#3E4C59">KPIs  ·  implementation roadmap  ·  periodic reviews as business priorities change</text>
+
+  <!-- Feedback loop -->
+  <path d="M90 624 H50 V131 H86" fill="none" stroke="#2B6A8E" stroke-width="2.5" marker-end="url(#arrow)"/>
+</svg>
